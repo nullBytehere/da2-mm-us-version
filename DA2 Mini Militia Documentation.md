@@ -2,13 +2,8 @@
 ---
 
 # About DA2 Mini Militia 4.2.8 Version Mod
-
-**In the release section, you can see that there are 2 flavors of version 4.2.8. ==2 versions were created for 2 reasons.==**
-**4.2.8.555 which has 3 5s at the end. This is the general version that I created for everyone.** 
-**And 4.2.8.5555 which has 4 5s at the end, I created it just for me.** 
-**Now the question is why did I create an extra version for me?** 
-**I modded the game all night long, without sleeping, so I must have something special, right?.** 
-**So I added some extra things to my version. What I modded in the applications is given below.**
+**In the release section, you can see that there are 2 flavors of version 4.2.8. Both versions were created for 2 reasons.**
+**4.2.8.555 which has 3 5s at the end. This is the general version that I created for everyone. And 4.2.8.5555 which has 4 5s at the end, I created it just for me. Now the question is why did I create an extra version for me. I modded the game all night long, without sleeping, so I must have something special, right?. So I added some extra things to my version. What I modded in the applications is given below**
 
 ## 4.2.8.555 - Normal version for Everyone
 1. Change game soundtrack - Hippie Sabotage - Devil Eyes
