@@ -224,7 +224,7 @@ Replaced: 46 20 0A 21 40 43 48 43 - General / [44-49]
 Replaced: 40 20 0A 21 40 43 48 43 - Lieutenant General / [29-43]
 Replaced: 38 - 39 20 0A 21 40 43 48 43 - Brigadier General / [31-34]
 Replaced: 34 - 37 20 0A 21 40 43 48 43 - Colonel / [27-30]
-Replaced: 30 20 0A 21 40 43 48 43 - Lieutenant Colonel / [23-26]
+Replaced: 30 - 33 20 0A 21 40 43 48 43 - Lieutenant Colonel / [23-26]
 Replaced: 27 20 0A 21 40 43 48 43 - 1st Lieutenant / [13-16]
 Replaced: 46 20 0A 21 40 43 48 40 - Sergeant 1st Class / [3-4]
 
