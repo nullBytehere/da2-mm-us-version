@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <title>DA2 MM PPL Edition</title>
+  <meta name="title" content="DA2 MM PPL Edition">
+  <meta name="description" content="This is a static website for sharing a game apk between us.">
+
+  <!-- Open Graph / Facebook / Messenger / WhatsApp / Discord -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DA2 MM PPL Edition">
+  <meta property="og:description" content="This is a static website for sharing a game apk between us.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/nullBytehere/da2ppl/5dcc13d7321798ea5fd7327af2913e59f1d185d8/assets/images/socialOG.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="DA2 MM PPL Edition">
+  <meta property="twitter:description" content="This is a static website for sharing a game apk between us.">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/nullBytehere/da2ppl/5dcc13d7321798ea5fd7327af2913e59f1d185d8/assets/images/socialOG.png">
+
+  <!-- All Favicon & Web Manifest Files (assets/favicon/ ফোল্ডার থেকে) -->
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#00d166">
+
+  <!-- Google Fonts & Style Sheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <noscript><style>.loader{display:none}body.is-loading{overflow:auto}</style></noscript>
+</head>
+<body class="is-loading">
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader-box">
+      <div class="loader-logo"><img id="loader-logo" alt=""></div>
+      <p class="loader-name" id="loader-name"></p>
+      <div class="loader-bar"><span id="loader-fill"></span></div>
+      <p class="loader-text" id="loader-text"></p>
+    </div>
+  </div>
+  <div class="app" id="app">
+    <header class="header">
+      <a class="brand" href="#/"><img class="avatar" id="brand-logo" alt=""><span id="brand-name"></span></a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav"><ul id="nav-list"></ul></nav>
+    </header>
+    <main id="view"></main>
+  </div>
+  <footer class="footer" id="footer"></footer>
+  <div class="toast-wrap" id="toasts" aria-live="polite"></div>
+
+  <!-- Home view -->
+  <template id="tpl-home">
+    <section class="hero" id="hero">
+      <div id="heroBlur"></div>
+      <div class="hero-inner">
+        <p class="hero-welcome" id="hero-welcome"></p>
+        <h1 class="hero-title" id="hero-title"></h1>
+        <button class="btn-hero" id="hero-download" type="button"></button>
+      </div>
+    </section>
+    <section class="panel" id="all-things">
+      <h2 class="panel-title"><span class="u">All</span> <span class="accent">Things</span></h2>
+      <div class="list" id="things-list"></div>
+      <div class="extra" id="things-extra"><div id="things-extra-list"></div></div>
+      <div class="more"><button class="btn-more" id="things-toggle" type="button"></button></div>
+    </section>
+  </template>
+
+  <!-- Browse view (content will be added later) -->
+  <template id="tpl-browse">
+    <section class="panel" id="browse">
+      <h2 class="panel-title" id="browse-title"></h2>
+      <div id="archive-list"></div>
+    </section>
+  </template>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    if (!window.SITE_CONFIG) {
+      document.body.innerHTML = '<p style="font:16px sans-serif;padding:24px;color:#fff;background:#b91c1c">js/config.js not found. Keep the folder structure: index.html + css/ + js/ + assets/ in the same folder.</p>';
+    }
+  </script>
+</body>
+</html>
