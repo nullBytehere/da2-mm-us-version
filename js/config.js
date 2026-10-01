@@ -140,10 +140,48 @@ window.SITE_CONFIG = {
      Optional: button: { ..., primary: true } makes that button green. */
   archive: {
     title: [ { text: "Archive", style: "accent u" } ],
-    groups: [
+    groups: 
+    [
+    // Content 1 start here
+      {
+        header: "Install Method",
+        items: 
+        [
+        // item 1 start here
+          {
+            icon: "assets/images/shizukuNext.png",
+            title: "Shizuku Next",
+            subtitle: "Shizuku",
+            meta: [
+              { label: "Date Added", value: "1/10/2026" },
+              { label: "Version",    value: "14.0.8" },
+              { label: "Link Type",  value: "Direct APK" }
+            ],
+            button: { text: "Download", url: "https://github.com/nullBytehere/da2ppl/releases/download/v4.0.36.555/shizuku-v14.0.8-next.apk" }
+          },
+        // item 1 end here
+        // item 1 start here
+          {
+            icon: "assets/images/installWithOptions.webp",
+            title: "Install with Options",
+            subtitle: "Install with Options",
+            meta: [
+              { label: "Date Added", value: "1/10/2026" },
+              { label: "Version",    value: "0.9.2" },
+              { label: "Link Type",  value: "Direct APK" }
+            ],
+            button: { text: "Download", url: "https://github.com/nullBytehere/da2ppl/releases/download/v4.0.36.555/InstallWithOptions_0.9.2.apk" }
+          },
+        // item 1 end here
+        ]
+      },
+    // Content 2 end here
+        // Content 2 start here
       {
         header: "DA2 MM PPL 4.2.8",
-        items: [
+        items: 
+        [
+        // item 1 start here
           {
             icon: "assets/images/da2Logo.png",
             title: "DA2 MM PPL",
@@ -155,19 +193,10 @@ window.SITE_CONFIG = {
             ],
             button: { text: "Download", url: "https://github.com/nullBytehere/da2-mm-us-version/releases/download/v4.2.8.555/da2-mm-4.2.8.555.apk" }
           },
-          // {
-          //   icon: "assets/images/vphoneos.jpg",
-          //   title: "VPhoneOS Build Rom",
-          //   subtitle: "Rom With Game",
-          //   meta: [
-          //     { label: "Date Added", value: "30/09/2026" },
-          //     { label: "Version",    value: "4.2.8" },
-          //     { label: "Link Type",  value: "Direct Link" }
-          //   ],
-          //   button: { text: "Download", url: "https://example.com/vphoneos-4.2.8" }
-          // }
+        // item 1 end here
         ]
       },
+    // Content 2 end here
     ]
   },
 
